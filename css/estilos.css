@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@400;500;600 & display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 5rem;
+    background-color: #1650A8;
+}
+
+.logo a {
+    color: #F2BB4E;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    color: #F2BB4E;
+    margin: 0 10px;
+}
+
+.navbar ul a {
+    color: #F2BB4E;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.destaque-botao {
+    background-color: #1650A8;
+    padding: 10px;
+    border: 1px solid #F2BB4E;
+    border-radius: 8px;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 530px) {
+    .navbar {
+    }
+
+    .navbar ul {
+        position: absolute;
+        background-color: #0e4496;
+        top: 70px;
+        left: -100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        width: 100%;
+    }
+
+    .navbar ul.open{
+        left: 0;
+    }
+
+    .navbar ul li {
+        margin: 11px 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
