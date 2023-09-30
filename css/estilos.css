@@ -22,10 +22,10 @@ main { flex: 1; }
 a { text-decoration: none; }
 
 h1 a {
-    background-color: black;
-    color: white;
+    color: #FFBB00;
     padding: 0.5rem 1rem;
     border-radius: 6px;
+    padding-left: 40px;
     text-transform: uppercase;
 }
 
@@ -40,7 +40,7 @@ header {
     z-index: 1;
     position: sticky;
     top: 0;
-    background-color: #ffffff;   
+    background-color: #1650A8;   
 }
 
 header div { 
@@ -51,14 +51,14 @@ header div {
 }
 
 nav h2 a { 
-    color: black;
+    color: #FFBB00;
     font-size: 1.2rem;
     display: inline-block;
     padding: 1rem;
 }
 
 nav a:hover, nav a:focus { 
-    background-color: rgb(71, 71, 71);
+    background-color:  #0c3f8b;
 }
 
 .menu {
@@ -67,7 +67,7 @@ nav a:hover, nav a:focus {
 }
 
 .menu a {
-    color: black;
+    color: #FFBB00;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -78,10 +78,31 @@ nav a:hover, nav a:focus {
 .menu.aberto {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #0c3f8b;
     position: absolute;
     left: 0;
     right: 0; 
+}
+
+.banner-fundo {
+    background-image: url(../imagens/dev1920.jpg);
+    height: 85vh;
+    color: #FFBB00;
+}
+.banner-fundo p {
+     /* Função clamp()
+    Utiliza valor mínimo, desejavel
+    flexível, e valor máximo. */
+    font-size: clamp(2rem, 6vw, 4rem)
+}
+
+
+.botao {
+    background-color: #FFBB00;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 0;
 }
 
 /* Para telas a partir de 530px */
@@ -104,5 +125,5 @@ nav a:hover, nav a:focus {
 /* Para telas a partir de 1000px */
 @media screen and (min-width:1000px) { 
     html { font-size: 16px; }
-    .limitador { max-width: 1000px; }
+    .limitador { max-width: 1350px; }
 }

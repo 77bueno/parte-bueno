@@ -12,8 +12,8 @@ botao.addEventListener("click", function(event) {
     Senão, continue mostrando o texto/ícone "Menu". */
 
     if ( linksMenu.classList.contains("aberto") ) {
-        icone.innerHTML = "Fechar &times;";
+        icone.innerHTML = "&times;";
     } else {
-        icone.innerHTML = "Menu &equiv;";
+        icone.innerHTML = "&equiv;";
     }
 });
