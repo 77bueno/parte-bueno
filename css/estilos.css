@@ -125,5 +125,5 @@ nav a:hover, nav a:focus {
 /* Para telas a partir de 1000px */
 @media screen and (min-width:1000px) { 
     html { font-size: 16px; }
-    .limitador { max-width: 1350px; }
+    .limitador { max-width: 1900px; }
 }

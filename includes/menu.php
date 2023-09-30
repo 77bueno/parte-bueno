@@ -17,7 +17,6 @@
             <h2><a href="" class="icone"> &equiv; </a></h2>
 
             <ul class="menu">
-                <li><a href="index.php">Home</a></li>
                 <li><a href="perfil.php">Entrar</a></li>
                 <li><a href="pagina_de_cadastro.php">Cadastrar</a></li>
             </ul>
