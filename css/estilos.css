@@ -2,6 +2,12 @@
 
 * { box-sizing: border-box; }
 
+:root {
+    --corPrimaria: #FFBB00;
+    --corSecundaria: #;
+}
+
+
 html { font-size: 14px; }
 
 body, h1, h2, h3, p, figure, .menu { 
@@ -32,8 +38,6 @@ h1 a {
 }
 
 h1 {
-    /* Google Fonts */
-    font-family: Raleway, sans-serif; 
     font-weight: 800; 
     font-size: 1.5rem;
 }
@@ -42,7 +46,8 @@ header {
     z-index: 1;
     position: sticky;
     top: 0;
-    background-color: #1650A8;   
+    background-color: #1650A8; 
+    height: 5rem;
 }
 
 header div { 
@@ -89,7 +94,13 @@ nav {
     color: #FFBB00;
     font-weight: bold;
     font-size: 16px; /* Tamanho da fonte dos links, ajuste conforme necessário */
-    padding: 1.5rem;
+    padding: 1rem;
+}
+
+.dtq {
+    border: #FFBB00 1px solid;
+    border-radius: 8px;
+    
 }
 
 .menu.aberto {
@@ -103,26 +114,43 @@ nav {
 
 .banner-fundo {
     background-image: url(../imagens/dev1920.jpg);
-    height: 85vh;
+    height: 125vh;
     color: #FFBB00;
     font-size: 2rem;
     position: relative;
     background-repeat: no-repeat;
-    padding-top: 150px; /* Ajuste conforme necessário */
-    text-align: left; /* Alinhe o conteúdo à esquerda */
+    padding-top: 150px; 
+    padding-left: 37px;
+    text-align: left; /* Alinhando o conteúdo à esquerda */
 }
 
 .banner-fundo p {
     font-size: clamp(2rem, 6vw, 4rem);
     margin-bottom: 20px; /* Espaçamento entre parágrafos, ajuste conforme necessário */
     top: 3rem;
+}
 
+/* ftmin = Fonte Mínima (Inter 200) */
+.ftmin {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+/* ftmax = Fonte Máxima (Bungee 400) */
+.ftmax {
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1;
 }
 
 .botao {
     background-color: #FFBB00; /* Cor de fundo do botão, ajuste conforme necessário */
     color: #000000; /* Cor do texto do botão, ajuste conforme necessário */
-    padding: 10px 20px; /* Espaçamento interno do botão, ajuste conforme necessário */
+    height: 3rem; 
+    width: 7rem;
+    font-size: 1rem;
     font-weight: bold; /* Estilo de fonte do botão, ajuste conforme necessário */
     border: none; /* Remova a borda do botão, se desejado */
     border-radius: 8px;
@@ -179,5 +207,8 @@ details[open] > * {
 /* Para telas a partir de 1000px */
 @media screen and (min-width:1000px) { 
     html { font-size: 16px; }
-    .limitador { max-width: 1900px; }
+    .limitador {
+        max-width: 1900px; 
+        margin-top: 0.5rem;
+    }
 }

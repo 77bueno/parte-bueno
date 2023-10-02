@@ -18,7 +18,7 @@
 
             <ul class="menu">
                 <li><a href="perfil.php">Entrar</a></li>
-                <li><a href="pagina_de_cadastro.php">Cadastrar</a></li>
+                <li><a href="pagina_de_cadastro.php" class="dtq">Cadastrar</a></li>
             </ul>
         </nav>
     </div>    

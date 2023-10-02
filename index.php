@@ -1,13 +1,17 @@
 <?php include 'includes/menu.php'; ?>
 
     <article class="banner-fundo">
-        <p> Desperte o gênio do código, </p>
-        <p> conquiste sua liberdade profissional! </p>
+        <p class="ftmin"> Desperte o gênio do código, </p>
+        <p class="ftmax">
+            conquiste sua <br> 
+            liberdade <br>
+            profissional! 
+        </p>
 
         <button class="botao" type="submit">Cadastre-se</button>
     </article>
 
-    <article>
+    <article class="quem-somos">
         <h2>Quem somos</h2>
 
         <p>Somos uma plataforma dedicada a reunir os talentos mais brilhantes da área de desenvolvimento web com os projetos mais desafiadores e empolgantes. Somos apaixonados por tecnologia e acreditamos no poder das mentes criativas para transformar ideias em realidade</p>
