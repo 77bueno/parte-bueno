@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@200;400;500;600&display=swap');
+
 * { box-sizing: border-box; }
 
 html { font-size: 14px; }
@@ -61,18 +63,33 @@ nav a:hover, nav a:focus {
     background-color:  #0c3f8b;
 }
 
+/* Estilos para a navegação (menu) */
+nav {
+    /* Adicione estilos de posicionamento conforme necessário */
+    float: right;
+}
+
 .menu {
     list-style: none;
-    display: none; 
+    padding: 0;
+    margin: 0;
+    text-align: right; /* Alinhe o texto à direita */
+    display: none;
+    margin-right: 8rem;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 0; /* Espaçamento entre os links, ajuste conforme necessário */
 }
 
 .menu a {
+    text-decoration: none;
     color: #FFBB00;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+    font-size: 16px; /* Tamanho da fonte dos links, ajuste conforme necessário */
+    padding: 1.5rem;
 }
 
 .menu.aberto {
@@ -88,21 +105,27 @@ nav a:hover, nav a:focus {
     background-image: url(../imagens/dev1920.jpg);
     height: 85vh;
     color: #FFBB00;
-}
-.banner-fundo p {
-     /* Função clamp()
-    Utiliza valor mínimo, desejavel
-    flexível, e valor máximo. */
-    font-size: clamp(2rem, 6vw, 4rem)
+    font-size: 2rem;
+    position: relative;
+    background-repeat: no-repeat;
+    padding-top: 150px; /* Ajuste conforme necessário */
+    text-align: left; /* Alinhe o conteúdo à esquerda */
 }
 
+.banner-fundo p {
+    font-size: clamp(2rem, 6vw, 4rem);
+    margin-bottom: 20px; /* Espaçamento entre parágrafos, ajuste conforme necessário */
+    top: 3rem;
+
+}
 
 .botao {
-    background-color: #FFBB00;
-    padding: 10px;
-    font-weight: bold;
+    background-color: #FFBB00; /* Cor de fundo do botão, ajuste conforme necessário */
+    color: #000000; /* Cor do texto do botão, ajuste conforme necessário */
+    padding: 10px 20px; /* Espaçamento interno do botão, ajuste conforme necessário */
+    font-weight: bold; /* Estilo de fonte do botão, ajuste conforme necessário */
+    border: none; /* Remova a borda do botão, se desejado */
     border-radius: 8px;
-    border: 0;
 }
 
 /* Estilizando o elemento 'summary' quando está fechado */
@@ -145,7 +168,7 @@ details[open] > * {
         justify-content: space-evenly;
     }
 
-    nav { width: 70%; }
+    nav { width: 20%; }
 
     .menu li { 
         width: 100%;
