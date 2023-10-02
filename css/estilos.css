@@ -177,7 +177,23 @@ details[open] > * {
 }
 
 .quem-somos {
-    background-color: #0c3f8b;
+    background-color: #00245B;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    height: 32rem;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px 40px 0 40px;
+}
+
+.corp {
+    padding-top: 2rem;
+    color: #FFBB00;
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5;
 }
 
 

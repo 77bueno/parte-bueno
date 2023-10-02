@@ -12,13 +12,23 @@
     </article>
 
     <article class="quem-somos">
-        <h2>Quem somos</h2>
+        <h2 class="corp">Quem somos</h2>
 
-        <p>Somos uma plataforma dedicada a reunir os talentos mais brilhantes da área de desenvolvimento web com os projetos mais desafiadores e empolgantes. Somos apaixonados por tecnologia e acreditamos no poder das mentes criativas para transformar ideias em realidade</p>
+        <section class="slider-container">
+            <p class="slide">Somos uma plataforma dedicada a conectar talentosos freelancers e empresas em busca de profissionais qualificados. Nosso objetivo é tornar o processo de encontrar trabalho ou contratar talento mais simples e eficiente.</p>
+
+            <p class="slide">Para freelancers, oferecemos uma plataforma onde você pode criar um perfil, mostrar suas habilidades e experiência, e se candidatar a projetos emocionantes em diversas áreas. Seja você um desenvolvedor web, designer gráfico, redator ou qualquer outro profissional, aqui você encontrará oportunidades que se alinham com suas paixões e habilidades.</p>
+
+            <p class="slide">Para empresas, oferecemos uma maneira fácil de postar vagas e encontrar os candidatos ideais. Nossa comunidade de freelancers é diversificada e altamente qualificada, pronta para contribuir para o sucesso de seu projeto.</p>
+
+            <p class="slide">Nosso compromisso é facilitar o encontro entre talento e oportunidades, tornando o processo de contratação ou a busca por projetos autônomos uma experiência fluida e produtiva.</p>
+
+            <p class="slide">Junte-se a nós e faça parte de uma comunidade de freelancers e empresas que estão prontos para colaborar e prosperar. Vamos ajudar você a encontrar os talentos certos ou as oportunidades ideais, simplificando a forma como o trabalho é feito.</p>
+        </section>
     </article>
         
     <section>
-        <h3>O que fazemos</h3>
+        <h2>O que fazemos</h2>
 
         <details>
             <summary> Nossa Missão: </summary>
@@ -30,7 +40,7 @@
         </details>
         
 
-        <h3>Por Que a CodeLance?</h3>
+        <h2>Por Que a CodeLance?</h2>
         <p>Estamos aqui para simplificar o processo de encontrar os talentos certos para seus projetos, economizando seu tempo e recursos. Deixe-nos cuidar dos detalhes para que você possa se concentrar no que faz de melhor: alcançar seus objetivos.</p>
         </section>
 
@@ -55,5 +65,6 @@
         </section>
     </main>
 <script src="js/menu.js"></script>
+<script src="js/slider.js"></script>
 </body>
 </html>
