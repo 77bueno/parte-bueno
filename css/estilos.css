@@ -105,6 +105,37 @@ nav a:hover, nav a:focus {
     border: 0;
 }
 
+/* Estilizando o elemento 'summary' quando está fechado */
+summary {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+}
+  
+/* Estilizando o elemento 'summary' quando está aberto */
+details[open] summary {
+    background-color: #ccc;
+}
+  
+/* Removendo o estilo padrão do marcador do 'summary' */
+summary::-webkit-details-marker {
+    display: none;
+}
+  
+/* Estilizando o conteúdo dentro do 'details' */
+details > * {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+  
+/* Estilizando o 'details' quando está aberto */
+details[open] > * {
+    background-color: #f9f9f9;
+}
+  
+
 /* Para telas a partir de 530px */
 @media screen and (min-width: 530px) { 
     nav h2 { display: none; }
