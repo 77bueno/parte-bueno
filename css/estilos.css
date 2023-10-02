@@ -45,6 +45,20 @@ header {
     height: 5rem;
 }
 
+/* nav h2 { display: none; } */
+
+.menu { 
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+nav { width: 20%; }
+
+.menu li { 
+    width: 100%;
+    text-transform: uppercase; 
+}
+
 header div { 
     display: flex;
     justify-content: space-between;
@@ -73,15 +87,18 @@ nav {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: right; /* Alinhe o texto à direita */
+    text-align: center; 
     display: none;
-    margin-right: 8rem;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .menu li {
     list-style: none;
     display: inline-block;
     margin-left: 0; /* Espaçamento entre os links, ajuste conforme necessário */
+    padding: 10px;
 }
 
 .menu a {
@@ -92,14 +109,11 @@ nav {
     padding: 1rem;
 }
 
-
 .menu.aberto {
     display: flex;
     flex-direction: column;
     background-color: #0c3f8b;
-    position: absolute;
-    left: 0;
-    right: 0; 
+     
 }
 
 .banner-fundo {
@@ -202,22 +216,9 @@ details[open] > * {
     .dtq {
         border: #FFBB00 1px solid;
         border-radius: 8px;
-        
     }    
 
-    nav h2 { display: none; }
-
-    .menu { 
-        display: flex; 
-        justify-content: space-evenly;
-    }
-
-    nav { width: 20%; }
-
-    .menu li { 
-        width: 100%;
-        text-transform: uppercase; 
-    }
+    
 }
 
 /* Para telas a partir de 1000px */
