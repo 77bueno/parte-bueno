@@ -2,11 +2,6 @@
 
 * { box-sizing: border-box; }
 
-:root {
-    --corPrimaria: #FFBB00;
-    --corSecundaria: #;
-}
-
 
 html { font-size: 14px; }
 
@@ -97,11 +92,6 @@ nav {
     padding: 1rem;
 }
 
-.dtq {
-    border: #FFBB00 1px solid;
-    border-radius: 8px;
-    
-}
 
 .menu.aberto {
     display: flex;
@@ -185,10 +175,20 @@ details > * {
 details[open] > * {
     background-color: #f9f9f9;
 }
-  
+
+.quem-somos {
+    background-color: #0c3f8b;
+}
+
 
 /* Para telas a partir de 530px */
 @media screen and (min-width: 530px) { 
+    .dtq {
+        border: #FFBB00 1px solid;
+        border-radius: 8px;
+        
+    }    
+
     nav h2 { display: none; }
 
     .menu { 

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@200;400;500;600&display=swap');
+
+* { box-sizing: border-box; }
+
+html { font-size: 14px; }
+
+body, h1, h2, h3, p, figure, .menu { 
+    padding: 0;
+    margin: 0;
+}
+
+img { max-width: 100%; }
+
+body { 
+    font-family: 'Noto Sans', Verdana, Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
