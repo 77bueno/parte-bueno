@@ -136,6 +136,7 @@ nav {
     color: #FFBB00;
     font-size: 2rem;
     position: relative;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 150px; 
     padding-left: 37px;
