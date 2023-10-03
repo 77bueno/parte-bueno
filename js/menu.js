@@ -7,10 +7,10 @@ botao.addEventListener("click", function(event) {
     linksMenu.classList.toggle("aberto");
 
     if (icone.classList.contains("bi-list")) {
-        menuIcon.classList.remove("bi-list");
-        menuIcon.classList.add("bi-x");
+        icone.classList.remove("bi-list");
+        icone.classList.add("bi-x");
     } else {
-        menuIcon.classList.remove("bi-x");
-        menuIcon.classList.add("bi-list");
+        icone.classList.remove("bi-x");
+        icone.classList.add("bi-list");
     }
 });
