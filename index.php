@@ -28,6 +28,7 @@
     </article>
         
     <section>
+        <img src="imagens/ilustracao-1.svg" alt="">
         <h2>O que fazemos</h2>
 
         <details>
