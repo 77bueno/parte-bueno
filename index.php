@@ -1,49 +1,43 @@
 <?php include 'includes/menu.php'; ?>
 
     <article class="banner-fundo">
-        <p class="ftmin"> Desperte o gênio do código, </p>
-        <p class="ftmax">
+        <p class="texto-banner"> Desperte o gênio do código, </p>
+        <p class="texto-banner-2">
             conquiste sua <br> 
             liberdade <br>
             profissional! 
         </p>
 
-        <button class="botao" type="submit">Cadastre-se</button>
+        <button class="botao" type="submit" name="cadastre-se">Cadastre-se</button>
     </article>
+
+    <section class="o-que-fazemos">
+        <h2>O que fazemos</h2> 
+                
+        <p>Capacitar Desenvolvedores Talentosos: Acreditamos que cada desenvolvedor possui um conjunto único de habilidades. O que fazemos é conectar esses talentos a oportunidades que os inspirem e desafiem, permitindo-lhes crescer e prosperar.</p>
+
+        <p>Estamos aqui para simplificar o processo de encontrar os talentos certos para seus projetos, economizando seu tempo e recursos. Deixe-nos cuidar dos detalhes para que você possa se concentrar no que faz de melhor: alcançar seus objetivos.</p>
+        
+    </section>
 
     <article class="quem-somos">
         <h2 class="corp">Quem somos</h2>
+        <img src="imagens/ilustracao-1.svg" alt="">
 
-        <section class="slider-container">
-            <p class="slide">Somos uma plataforma dedicada a conectar talentosos freelancers e empresas em busca de profissionais qualificados. Nosso objetivo é tornar o processo de encontrar trabalho ou contratar talento mais simples e eficiente.</p>
+        <section>
+            <p>Somos uma plataforma dedicada a conectar talentosos freelancers e empresas em busca de profissionais qualificados. Nosso objetivo é tornar o processo de encontrar trabalho ou contratar talento mais simples e eficiente.</p>
 
-            <p class="slide">Para freelancers, oferecemos uma plataforma onde você pode criar um perfil, mostrar suas habilidades e experiência, e se candidatar a projetos emocionantes em diversas áreas. Seja você um desenvolvedor web, designer gráfico, redator ou qualquer outro profissional, aqui você encontrará oportunidades que se alinham com suas paixões e habilidades.</p>
+            <p>Para freelancers, oferecemos uma plataforma onde você pode criar um perfil, mostrar suas habilidades e experiência, e se candidatar a projetos emocionantes em diversas áreas. Seja você um desenvolvedor web, designer gráfico, redator ou qualquer outro profissional, aqui você encontrará oportunidades que se alinham com suas paixões e habilidades.</p>
 
-            <p class="slide">Para empresas, oferecemos uma maneira fácil de postar vagas e encontrar os candidatos ideais. Nossa comunidade de freelancers é diversificada e altamente qualificada, pronta para contribuir para o sucesso de seu projeto.</p>
+            <p>Para empresas, oferecemos uma maneira fácil de postar vagas e encontrar os candidatos ideais. Nossa comunidade de freelancers é diversificada e altamente qualificada, pronta para contribuir para o sucesso de seu projeto.</p>
 
-            <p class="slide">Nosso compromisso é facilitar o encontro entre talento e oportunidades, tornando o processo de contratação ou a busca por projetos autônomos uma experiência fluida e produtiva.</p>
+            <p>Nosso compromisso é facilitar o encontro entre talento e oportunidades, tornando o processo de contratação ou a busca por projetos autônomos uma experiência fluida e produtiva.</p>
 
-            <p class="slide">Junte-se a nós e faça parte de uma comunidade de freelancers e empresas que estão prontos para colaborar e prosperar. Vamos ajudar você a encontrar os talentos certos ou as oportunidades ideais, simplificando a forma como o trabalho é feito.</p>
+            <p>Junte-se a nós e faça parte de uma comunidade de freelancers e empresas que estão prontos para colaborar e prosperar. Vamos ajudar você a encontrar os talentos certos ou as oportunidades ideais, simplificando a forma como o trabalho é feito.</p>
         </section>
     </article>
         
-    <section>
-        <img src="imagens/ilustracao-1.svg" alt="">
-        <h2>O que fazemos</h2>
-
-        <details>
-            <summary> Nossa Missão: </summary>
-                <ul>
-                    <li>Capacitar Desenvolvedores Talentosos: Acreditamos que cada desenvolvedor possui um conjunto único de habilidades. O que fazemos é conectar esses talentos a oportunidades que os inspirem e desafiem, permitindo-lhes crescer e prosperar.</li>
-
-                    <li>Potencializar Projetos Inovadores: Colaboramos com empresas, startups e organizações visionárias que buscam transformar ideias em resultados tangíveis. Fornecemos acesso direto a uma comunidade diversificada de desenvolvedores de alto calibre para impulsionar projetos a novos patamares de sucesso.</li>
-                </ul> 
-        </details>
-        
-
-        <h2>Por Que a CodeLance?</h2>
-        <p>Estamos aqui para simplificar o processo de encontrar os talentos certos para seus projetos, economizando seu tempo e recursos. Deixe-nos cuidar dos detalhes para que você possa se concentrar no que faz de melhor: alcançar seus objetivos.</p>
-        </section>
+    
 
         <section>
             <h2>Áreas de Atuação</h2>
