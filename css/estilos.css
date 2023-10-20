@@ -41,7 +41,7 @@ header {
     z-index: 1;
     position: sticky;
     top: 0;
-    background-color: #1650A8; 
+    background-color: #00245B; 
     height: 5rem;
     display: flex;
     align-items: center;
@@ -87,7 +87,7 @@ nav h2 a {
 }
 
 nav a:hover, nav a:focus { 
-    background-color:  #0c3f8b;
+    background-color:  #001b42;
 }
 
 /* Estilos para a navegação (menu) */
@@ -126,7 +126,7 @@ nav {
 .menu.aberto {
     display: flex;
     flex-direction: column;
-    background-color: #0c3f8b;
+    background-color: #001b42;
 
 }
 
@@ -179,11 +179,9 @@ nav {
     background-color: #ffffff;
     color: #000000;
     font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    height: 70rem;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 20px 40px 0 40px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 20px 40px 35px 40px;
 }
 
 .quem-somos img {
@@ -207,9 +205,9 @@ nav {
     background-color: #00245B;
     color: #fff;
     font-size: 1.5rem;
-    padding: 15px 15px 0 15px;
+    padding: 5px 15px 35px 15px;
     font-family: 'Inter', sans-serif;
-    height: 65vh;
+    font-weight: 400;
 }
 
 .o-que-fazemos h2 {
@@ -224,8 +222,8 @@ nav {
     background-color: #00245B;
     color: #fff;
     font-size: 1.4rem;
-    padding: 10px;
-    height: 75rem;
+    padding: 15px 15px 35px 15px;
+    
 }
 
 .areas-de-atuacao h2, h4 {
