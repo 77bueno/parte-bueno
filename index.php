@@ -43,28 +43,28 @@
             <div class="hidden p-4 bg-[#DFECFF] rounded-lg md:p-8" id="stats" role="tabpanel" aria-labelledby="stats-tab">
                 <dl class="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-gray-900 sm:grid-cols-3 xl:grid-cols-6 sm:p-8">
                     <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]">73M+</dt>
-                        <dd class="text-slate-950">Desenvolvedores</dd>
+                        <dt data-aos="flip-right" class="mb-2 text-3xl font-extrabold text-[#00245B]">73M+</dt>
+                        <dd data-aos="flip-right" class="text-slate-950">Desenvolvedores</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]">100M+</dt>
-                        <dd class="text-slate-950">Repositórios </dd>
+                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]" data-aos="flip-right">100M+</dt>
+                        <dd class="text-slate-950" data-aos="flip-right">Repositórios </dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]">1000s</dt>
-                        <dd class="text-slate-950">Projetos abertos</dd>
+                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]" data-aos="flip-right">1000s</dt>
+                        <dd class="text-slate-950" data-aos="flip-right">Projetos abertos</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]">1B+</dt>
-                        <dd class="text-slate-950">Contribuidores</dd>
+                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]" data-aos="flip-right">1B+</dt>
+                        <dd class="text-slate-950" data-aos="flip-right">Contribuidores</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]">90+</dt>
-                        <dd class="text-slate-950">Vagas</dd>
+                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]" data-aos="flip-right">90+</dt>
+                        <dd class="text-slate-950" data-aos="flip-right">Vagas</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B] ">4M+</dt>
-                        <dd class="text-slate-950">Organizações</dd>
+                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B] " data-aos="flip-right">4M+</dt>
+                        <dd class="text-slate-950" data-aos="flip-right">Organizações</dd>
                     </div>
                 </dl>
             </div>
