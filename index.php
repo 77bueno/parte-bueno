@@ -11,7 +11,7 @@
             profissional! 
         </p>
 
-        <button class="botao" type="submit" name="cadastre-se">Cadastre-se</button>
+        <button class="text-slate-950 bg-[#FFBB00] font-bold p-2 rounded-md text-2xl" type="submit" name="cadastre-se">Cadastre-se</button>
         </section>
     </article>
 
@@ -30,15 +30,51 @@
         </section>
     </article>
 
-    <section class="pt-comecar">
+    <section class="vagasd">
             
+        <div class="w-full bg-white border border-gray-200 rounded-lg shadow">
+        <ul class=" text-sm font-medium text-center text-gray-500 divide-x divide-gray-200 rounded-lg sm:flex dark:divide-gray-600" id="fullWidthTab" data-tabs-toggle="#fullWidthTabContent" role="tablist">
+            <li class="w-full">
+                <button id="stats-tab" data-tabs-target="#stats" type="button" role="tab" aria-controls="stats" aria-selected="true" class="inline-block w-full p-4 rounded-tl-lg bg-gray-50 hover:bg-gray-100 focus:outline-none  dark:hover:bg-gray-600">Estatísticas</button>
+            </li>
+            
+        </ul>
+        <div id="fullWidthTabContent" class="border-t border-gray-200">
+            <div class="hidden p-4 bg-[#DFECFF] rounded-lg md:p-8" id="stats" role="tabpanel" aria-labelledby="stats-tab">
+                <dl class="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-gray-900 sm:grid-cols-3 xl:grid-cols-6 sm:p-8">
+                    <div class="flex flex-col items-center justify-center">
+                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]">73M+</dt>
+                        <dd class="text-slate-950">Desenvolvedores</dd>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]">100M+</dt>
+                        <dd class="text-slate-950">Repositórios </dd>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]">1000s</dt>
+                        <dd class="text-slate-950">Projetos abertos</dd>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]">1B+</dt>
+                        <dd class="text-slate-950">Contribuidores</dd>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]">90+</dt>
+                        <dd class="text-slate-950">Vagas</dd>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B] ">4M+</dt>
+                        <dd class="text-slate-950">Organizações</dd>
+                    </div>
+                </dl>
+            </div>
     </section>
 
     <article class="pq-codelance">
         <img data-aos="zoom-in" src="imagens/ilustracao2.svg" alt="ilustração do site">
 
         <h2 data-aos="fade-up" class="pc-titulo">Por Que a codelance?</h2>
-        <p data-aos="fade-up">Estamos aqui para simplificar o processo de encontrar os talentos certos para seus projetos, economizando seu tempo e recursos. Deixe-nos cuidar dos detalhes para que você possa se concentrar no que faz de melhor: alcançar seus objetivos.</p>
+        <p data-aos="fade-up">Estamos aqui para simplificar o processo de encontrar os talentos certos para seus projetos, <b>economizando seu tempo e recursos</b>. Deixe-nos cuidar dos detalhes para que você possa se concentrar no que faz de melhor: alcançar seus objetivos.</p>
     </article>
         
     
@@ -65,9 +101,9 @@
         </section>
     </main>
 <script src="js/menu.js"></script>
-<script src="js/slider.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
     <script>
       AOS.init({
         duration: 800,
