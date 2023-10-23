@@ -11,7 +11,7 @@
             profissional! 
         </p>
 
-        <button class="text-slate-950 bg-[#FFBB00] font-bold p-2 rounded-md text-2xl" type="submit" name="cadastre-se">Cadastre-se</button>
+        <button class="text-slate-950 bg-[#FFBB00] font-bold p-3 rounded-md text-2xl" type="submit" name="cadastre-se">Cadastre-se</button>
         </section>
     </article>
 
@@ -30,45 +30,6 @@
         </section>
     </article>
 
-    <section class="vagasd">
-            
-        <div class="w-full bg-white border border-gray-200 rounded-lg shadow">
-        <ul class=" text-sm font-medium text-center text-gray-500 divide-x divide-gray-200 rounded-lg sm:flex dark:divide-gray-600" id="fullWidthTab" data-tabs-toggle="#fullWidthTabContent" role="tablist">
-            <li class="w-full">
-                <button id="stats-tab" data-tabs-target="#stats" type="button" role="tab" aria-controls="stats" aria-selected="true" class="inline-block w-full p-4 rounded-tl-lg bg-gray-50 hover:bg-gray-100 focus:outline-none  dark:hover:bg-gray-600">Estatísticas</button>
-            </li>
-            
-        </ul>
-        <div id="fullWidthTabContent" class="border-t border-gray-200">
-            <div class="hidden p-4 bg-[#DFECFF] rounded-lg md:p-8" id="stats" role="tabpanel" aria-labelledby="stats-tab">
-                <dl class="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-gray-900 sm:grid-cols-3 xl:grid-cols-6 sm:p-8">
-                    <div class="flex flex-col items-center justify-center">
-                        <dt data-aos="flip-right" class="mb-2 text-3xl font-extrabold text-[#00245B]">73M+</dt>
-                        <dd data-aos="flip-right" class="text-slate-950">Desenvolvedores</dd>
-                    </div>
-                    <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]" data-aos="flip-right">100M+</dt>
-                        <dd class="text-slate-950" data-aos="flip-right">Repositórios </dd>
-                    </div>
-                    <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]" data-aos="flip-right">1000s</dt>
-                        <dd class="text-slate-950" data-aos="flip-right">Projetos abertos</dd>
-                    </div>
-                    <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]" data-aos="flip-right">1B+</dt>
-                        <dd class="text-slate-950" data-aos="flip-right">Contribuidores</dd>
-                    </div>
-                    <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B]" data-aos="flip-right">90+</dt>
-                        <dd class="text-slate-950" data-aos="flip-right">Vagas</dd>
-                    </div>
-                    <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-3xl font-extrabold text-[#00245B] " data-aos="flip-right">4M+</dt>
-                        <dd class="text-slate-950" data-aos="flip-right">Organizações</dd>
-                    </div>
-                </dl>
-            </div>
-    </section>
 
     <article class="pq-codelance">
         <img data-aos="zoom-in" src="imagens/ilustracao2.svg" alt="ilustração do site">
@@ -82,17 +43,14 @@
         <section class="areas-de-atuacao">
             
             <h2 data-aos="fade-up">Áreas de Atuação</h2>
-            <p data-aos="fade-up">A Codelance se destaca como a única plataforma de freelancers para desenvolvedores. Oferecemos um ambiente inovador onde talentos técnicos podem encontrar projetos sob medida, enquanto empresas acessam expertise de alta qualidade. Nossa abordagem revolucionária impulsiona o sucesso de freelancers e clientes, moldando o futuro do trabalho independente. </p>
+            <p data-aos="fade-up">Nos destacamos como uma poucas plataformas de freelancers para <b>desenvolvedores</b>. Oferecemos um ambiente inovador onde talentos técnicos podem encontrar projetos sob medida, enquanto empresas acessam expertise de alta qualidade. Nossa abordagem revolucionária impulsiona o sucesso de freelancers e clientes, moldando o futuro do trabalho independente. </p>
 
-            <h4 data-aos="fade-up">Desenvolvedores</h4>
-            <p data-aos="fade-up">Desenvolvedor Front, Back, 
-            Mobile ou Full-Stack</p>
-
-            <h4 data-aos="fade-up">Linguagens de Programação mais usadas</h4>
-            <p data-aos="fade-up">JavaScript, Python, Php, Java, C++, C#</p>
-
-            <h4 data-aos="fade-up">Ferramentas mais usadas</h4>
-            <p data-aos="fade-up">Visual Studio Code, WordPress, PhpStorm </p>
+            <h4 data-aos="fade-up">O que você precisa está aqui</h4>
+            <ul>
+                <li data-aos="fade-up">Desenvolva/Atualize seu website.</li>
+                <li data-aos="fade-up">Crie o seu conteúdo.</li>
+                <li data-aos="fade-up">E aumente sua performance.</li>
+            </ul>
         </section>
 
         <section class="pt-comecar">
@@ -103,12 +61,30 @@
 <script src="js/menu.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+<script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+
     <script>
-      AOS.init({
-        duration: 800,
-        once: true
-      });
+        $(document).ready(function() {
+                $('.contagem').each(function () {
+                    var $this = $(this);
+                    $({ Counter: 0 }).animate({
+                        Counter: $this.text()
+                    }, {
+                        duration: 3000,
+                        easing: 'swing',
+                        step: function (now) {
+                            $this.text(Math.ceil(now));
+                        }
+                    });
+                });
+            });
     </script>
+</script>
 </body>
 </html>

@@ -15,10 +15,10 @@
     <header>
     <div class="limitador centralizar">
         <h1>
-            <a href="index.php" class="font-extrabold text-2xl">CodeLance</a>
+            <a href="index.php" class="font-extrabold text-2xl pl-8">CodeLance</a>
         </h1>
         <nav>
-            <h2><a href=""> <i id="icone" class="bi bi-list"></i> </a></h2>
+            <h2><a href=""> <i id="icone" class="bi bi-list text-4xl"></i> </a></h2>
 
             <ul class="menu">
                 <li><a href="perfil.php">Entrar</a></li>

@@ -75,10 +75,6 @@ header div {
     justify-content: space-between;
 }
 
-#icone {
-    font-size: 35px;
-}
-
 nav h2 a { 
     color: #FFBB00;
     font-size: 1.2rem;
@@ -138,7 +134,7 @@ nav {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 150px; 
+    padding-top: 160px; 
     padding-left: 15px;
     text-align: left; /* Alinhando o conteúdo à esquerda */
 }
@@ -277,10 +273,6 @@ nav {
     border-radius: 3px; 
     cursor: pointer; 
     text-decoration: none; 
-  }
-
-  .vagasd {
-    
   }
   
   .button:hover {
