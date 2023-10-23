@@ -184,11 +184,29 @@ nav {
     padding: 20px 40px 35px 40px;
 }
 
-.quem-somos img {
+.quem-somos img, .pq-codelance img {
     width: 100%;
 }
 
 .qs-titulo {
+    padding-top: 2rem;
+    color: #FFBB00;
+    font-family: 'Candal', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.pq-codelance {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 20px 40px 35px 40px;
+}
+
+.pc-titulo {
     padding-top: 2rem;
     color: #FFBB00;
     font-family: 'Candal', Arial, sans-serif;
