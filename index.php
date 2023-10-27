@@ -1,9 +1,7 @@
 <?php include 'includes/menu.php'; ?>
 
     <article class="banner-fundo">
-        <section data-aos="fade-right"
-                 data-aos-offset="300"
-                 data-aos-easing="ease-in-sine">
+        <section>
         <p class="texto-banner"> Desperte o gênio do código, </p>
         <p class="texto-banner-2">
             conquiste sua <br> 
@@ -136,6 +134,7 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
 <script>
     AOS.init({
       duration: 800,

@@ -24,108 +24,6 @@ main { flex: 1; }
 
 a { text-decoration: none; }
 
-h1 a {
-    color: #FFBB00;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    padding-left: 15px;
-    text-transform: uppercase;
-}
-
-h1 {
-    font-weight: 800; 
-    font-size: 1.7rem;
-}
-
-header {
-    z-index: 1;
-    position: sticky;
-    top: 0;
-    background-color: #001b42; 
-    height: 5rem;
-    display: flex;
-    align-items: center;
-}
-
-/* nav h2 { display: none; } */
-
-.menu { 
-    display: flex; 
-    justify-content: space-evenly;
-}
-
-nav { width: 20%; }
-
-.menu li { 
-    width: 100%;
-    text-transform: uppercase; 
-}
-
-header div { 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 10vh;
-}
-
-.centralizar {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-nav h2 a { 
-    color: #FFBB00;
-    font-size: 1.2rem;
-    display: inline-block;
-    padding: 1rem;
-}
-
-nav a:hover, nav a:focus { 
-    background-color:  #001b42;
-}
-
-/* Estilos para a navegação (menu) */
-nav {
-    /* Adicione estilos de posicionamento conforme necessário */
-    float: right;
-}
-
-.menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center; 
-    display: none;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 70px;
-}
-
-.menu li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 0; /* Espaçamento entre os links, ajuste conforme necessário */
-    padding: 20px;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #FFBB00;
-    font-weight: bold;
-    font-size: 16px; /* Tamanho da fonte dos links, ajuste conforme necessário */
-    padding: 1rem;
-}
-
-.menu.aberto {
-    display: flex;
-    flex-direction: column;
-    background-color: #001b42;
-
-}
-
 .banner-fundo {
     background-image: url(../imagens/dev1920.jpg);
     height: 85vh;
@@ -285,20 +183,11 @@ nav {
 
 
 /* Para telas a partir de 530px */
-@media screen and (min-width: 530px) { 
-    .dtq {
-        border: #FFBB00 1px solid;
-        border-radius: 8px;
-    }    
-
-    
+@media screen and (min-width: 530px) {  
 }
 
 /* Para telas a partir de 1000px */
 @media screen and (min-width:1000px) { 
     html { font-size: 16px; }
-    .limitador {
-        max-width: 1900px; 
-        margin-top: 0.5rem;
-    }
+
 }
