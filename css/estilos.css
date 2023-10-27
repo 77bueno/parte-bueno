@@ -26,14 +26,14 @@ a { text-decoration: none; }
 
 .banner-fundo {
     background-image: url(../imagens/dev1920.jpg);
-    height: 85vh;
+    height: 100vh;
     color: #FFBB00;
     font-size: 2rem;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 160px; 
-    padding-left: 15px;
+    padding-top: 30vh; 
+    padding-left: 1.2vh;
     text-align: left; /* Alinhando o conteúdo à esquerda */
 }
 
@@ -46,7 +46,7 @@ a { text-decoration: none; }
     font-family: 'Inter', sans-serif;
     font-weight: 200;
     line-height: 1.2;
-    font-size: 1.9rem;
+    font-size: 2rem;
 }
 
 /* texto banner 2 = Fonte Máxima (Bungee 400) */
@@ -55,18 +55,7 @@ a { text-decoration: none; }
     font-weight: 400;
     line-height: 1;
     padding-bottom: 20px;
-    font-size: 2.5rem;
-}
-
-.botao {
-    background-color: #FFBB00; /* Cor de fundo do botão, ajuste conforme necessário */
-    color: #000000; /* Cor do texto do botão, ajuste conforme necessário */
-    height: 4rem;
-    width: 10rem;
-    font-size: 1.5rem;
-    font-weight: bold; /* Estilo de fonte do botão, ajuste conforme necessário */
-    border: none; /* Remova a borda do botão, se desejado */
-    border-radius: 8px;
+    font-size: 2.6rem;
 }
 
 .quem-somos {
@@ -74,7 +63,7 @@ a { text-decoration: none; }
     color: #000000;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding: 20px 40px 35px 40px;
 }
 
@@ -87,7 +76,7 @@ a { text-decoration: none; }
     color: #FFBB00;
     font-family: 'Candal', Arial, sans-serif;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 2.3;
 }
 
@@ -96,7 +85,7 @@ a { text-decoration: none; }
     color: #000000;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding: 20px 40px 35px 40px;
 }
 
@@ -105,7 +94,7 @@ a { text-decoration: none; }
     color: #FFBB00;
     font-family: 'Candal', Arial, sans-serif;
     font-weight: 400;
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     line-height: 2.3;
 }
 
@@ -116,7 +105,7 @@ a { text-decoration: none; }
 .o-que-fazemos {
     background-color: #001b42;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 5px 15px 35px 15px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -125,7 +114,7 @@ a { text-decoration: none; }
 
 .o-que-fazemos h2 {
     color: #FFBB00;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     font-family: 'Candal', Arial, sans-serif;
     padding: 50px 0 15px 0;
     line-height: 4.5rem;
@@ -144,6 +133,7 @@ a { text-decoration: none; }
     color: #FFBB00;
     font-family: 'Candal', Arial, sans-serif;
     padding: 10px 0 10px 0;
+    font-size: 2.5rem;
     margin-bottom: -5px;
 }
 
@@ -184,6 +174,22 @@ a { text-decoration: none; }
 
 /* Para telas a partir de 530px */
 @media screen and (min-width: 530px) {  
+    .texto-banner {
+        font-size: 3rem;
+    }
+
+    .texto-banner-2 {
+        font-size: 3.5rem;
+    }
+
+    .o-que-fazemos {
+        font-size: 1.7rem;
+    }
+
+    .o-que-fazemos h2 {
+        font-size: 3.5rem;
+    }
+
 }
 
 /* Para telas a partir de 1000px */

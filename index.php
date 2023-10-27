@@ -9,7 +9,7 @@
             profissional! 
         </p>
 
-        <button class="text-slate-950 bg-[#FFBB00] font-bold p-3 rounded-md text-2xl" type="submit" name="cadastre-se">Cadastre-se</button>
+        <button class="text-slate-950 bg-[#FFBB00] font-bold p-3 rounded-md text-3xl" type="submit" name="cadastre-se">Cadastre-se</button>
         </section>
     </article>
 
@@ -105,7 +105,7 @@
     <article class="pq-codelance">
         <img data-aos="zoom-in" src="imagens/ilustracao2.svg" alt="ilustração do site">
 
-        <h2 data-aos="fade-up" class="pc-titulo">Por Que a codelance?</h2>
+        <h2 data-aos="fade-up" class="pc-titulo">Serviços</h2>
         <p data-aos="fade-up">Estamos aqui para simplificar o processo de encontrar os talentos certos para seus projetos, <b>economizando seu tempo e recursos</b>. Deixe-nos cuidar dos detalhes para que você possa se concentrar no que faz de melhor: alcançar seus objetivos.</p>
     </article>
     
@@ -137,7 +137,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
 <script>
     AOS.init({
-      duration: 800,
+      duration: 1200,
       once: true
     });
 
@@ -147,7 +147,7 @@
                 $({ Counter: 0 }).animate({
                     Counter: $this.text()
                 }, {
-                    duration: 3000,
+                    duration: 4000,
                     easing: 'swing',
                     step: function (now) {
                         $this.text(Math.ceil(now));
@@ -157,5 +157,5 @@
         });
     </script>
 </script>
-</body>
-</html>
+
+<?php include "includes/rodape.php"; ?>
