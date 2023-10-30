@@ -12,7 +12,6 @@
 
         <button class="text-slate-950 bg-[#FFBB00] font-bold p-3 rounded-md text-3xl" type="submit" name="cadastre-se">Cadastre-se</button>
         </section>
-        <img src="imagens/ilustracao-fundo (2).svg" alt="">
     </article>
 
     
