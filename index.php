@@ -1,6 +1,7 @@
 <?php include 'includes/menu.php'; ?>
 
     <article class="banner-fundo">
+
         <section>
         <p class="texto-banner"> Desperte o gênio do código, </p>
         <p class="texto-banner-2">
@@ -11,27 +12,30 @@
 
         <button class="text-slate-950 bg-[#FFBB00] font-bold p-3 rounded-md text-3xl" type="submit" name="cadastre-se">Cadastre-se</button>
         </section>
+        <img src="imagens/ilustracao-fundo (2).svg" alt="">
     </article>
 
-
+    
 
     <section class="o-que-fazemos">
         <h2  data-aos="fade-up">O que fazemos</h2> 
                 
         <p  data-aos="fade-up">Na Codelance, facilitamos a jornada dos freelancers de desenvolvimento. Nossa plataforma inteligente é projetada para simplificar a busca por projetos que correspondam às suas habilidades exclusivas e interesses pessoais. Oferecemos uma ampla gama de categorias de desenvolvimento, desde sites para web até soluções avançadas para aplicações mobiles. Encontrar projetos sob medida para você nunca foi tão fácil.<p>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#001b42" fill-opacity="1" d="M0,256L120,224C240,192,480,128,720,133.3C960,139,1200,213,1320,250.7L1440,288L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+    
+    
     <article class="quem-somos">
-        <img data-aos="zoom-in" src="imagens/ilustracao1.svg" alt="ilustração do site">
+        <img data-aos="zoom-in" src="imagens/ilustraca01.svg" alt="ilustração do site">
 
-        <h2 data-aos="fade-up" class="qs-titulo">Quem somos</h2>
         <section>
-            <p data-aos="fade-up">A Codelance é uma comunidade dedicada de desenvolvedores independentes apaixonados por tecnologia e inovação. Nossa missão é proporcionar oportunidades de sucesso para freelancers, conectando-os a projetos desafiadores em um ambiente de colaboração e crescimento mútuo. Junte-se a nós e faça parte desta comunidade que valoriza suas habilidades e aspirações. Aqui, você não está sozinho em sua jornada de desenvolvimento profissional.</p>
+            <h2 data-aos="fade-up" class="qs-titulo">Quem somos</h2>
+        
+            <p data-aos="fade-up">A Codelance é uma vibrante comunidade dedicada de desenvolvedores e empresas independentes apaixonados por tecnologia, inovação e pelo constante aprimoramento de seus objetivos. Nossa missão é criar um espaço onde freelancers e empresas possam encontrar oportunidades excepcionais de sucesso e desenvolvimento. Conectamos talentos a projetos desafiadores, permitindo que você se destaque em sua área de atuação, enquanto cultiva um ambiente de colaboração e crescimento mútuo.</p>
         </section>
     </article>
 
 
-    <section class="py-10 bg-[#F2F7FF] sm:py-16 lg:py-24">
+    <section class="py-10 bg-[#F9FBFF] sm:py-16 lg:py-24">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="text-center">
                 <h2 class="text-xl font-medium text-gray-900">Junte-se a milhares de pessoas que usam os nossos serviços</h2>
@@ -105,8 +109,10 @@
     <article class="pq-codelance">
         <img data-aos="zoom-in" src="imagens/ilustracao2.svg" alt="ilustração do site">
 
+        <section>
         <h2 data-aos="fade-up" class="pc-titulo">Serviços</h2>
         <p data-aos="fade-up">Estamos aqui para simplificar o processo de encontrar os talentos certos para seus projetos, <b>economizando seu tempo e recursos</b>. Deixe-nos cuidar dos detalhes para que você possa se concentrar no que faz de melhor: alcançar seus objetivos.</p>
+        </section>
     </article>
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#001b42" fill-opacity="1" d="M0,32L80,69.3C160,107,320,181,480,176C640,171,800,85,960,58.7C1120,32,1280,64,1360,80L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
@@ -122,11 +128,6 @@
                 <li data-aos="fade-up">Crie o seu conteúdo.</li>
                 <li data-aos="fade-up">E aumente sua performance.</li>
             </ul>
-        </section>
-
-        <section class="pt-comecar">
-            <p>PRONTO PARA COMEÇAR?</p>
-            <button type="submit">faça login e comece sua jornada</button>
         </section>
     </main>
 <script src="js/menu.js"></script>

@@ -25,17 +25,15 @@ main { flex: 1; }
 a { text-decoration: none; }
 
 .banner-fundo {
-    background-image: url(../imagens/dev1920.jpg);
-    height: 100vh;
+    background: rgb(0,27,66);
+    background: linear-gradient(153deg, rgba(0,27,66,1) 40%, rgba(0,34,84,1) 50%, rgba(0,43,103,1) 61%, rgba(0,51,125,1) 69%, rgba(0,63,156,1) 76%, rgba(0,72,179,1) 84%, rgba(0,80,199,1) 93%);
+    height: 94vh;
     color: #FFBB00;
     font-size: 2rem;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 30vh; 
-    padding-left: 1.2vh;
-    text-align: left; /* Alinhando o conteúdo à esquerda */
+    padding-top: 20rem; 
+    padding-right: 2.7rem;
 }
+
 
 .banner-fundo p {
     margin-bottom: 20px; /* Espaçamento entre parágrafos, ajuste conforme necessário */
@@ -67,7 +65,7 @@ a { text-decoration: none; }
     padding: 20px 40px 35px 40px;
 }
 
-.quem-somos img, .pq-codelance img {
+.quem-somos img, .pq-codelance img, .banner-fundo img {
     width: 100%;
 }
 
@@ -103,8 +101,8 @@ a { text-decoration: none; }
 }
 
 .o-que-fazemos {
-    background-color: #001b42;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     font-size: 1.3rem;
     padding: 5px 15px 35px 15px;
     font-family: 'Inter', sans-serif;
@@ -137,31 +135,6 @@ a { text-decoration: none; }
     margin-bottom: -5px;
 }
 
-.pt-comecar {
-    background-color: #FFBB00;
-    color: #00245B;
-    height: 13vh;
-    text-align: center;
-    padding-top: 20px;
-    font-weight: bold;
-    font-size: 1.3rem;
-    line-height: 2rem;
-}
-
-.pt-comecar button {
-
-    display: inline-block;
-    padding: 7px 14px;
-    background-color: #071D94; 
-    color: #ffffff; 
-    font-size: 14px;
-    border: none; 
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 3px; 
-    cursor: pointer; 
-    text-decoration: none; 
-  }
   
   .button:hover {
     background-color: #0c3f8b;
@@ -183,12 +156,35 @@ a { text-decoration: none; }
     }
 
     .o-que-fazemos {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
+        padding-left: 3rem;
     }
 
     .o-que-fazemos h2 {
         font-size: 3.5rem;
     }
+
+    .quem-somos, .pq-codelance, .banner-fundo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3rem;
+
+    }
+
+    .quem-somos img, .banner-fundo img {
+        width: 25rem;
+        height: 19rem;
+        margin-right: 3rem;
+    }
+
+        
+    .banner-fundo {
+        padding-top: 15vh; 
+        padding-left: 3rem;
+        height: 100vh;
+    }
+    
 
 }
 
