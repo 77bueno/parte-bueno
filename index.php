@@ -10,7 +10,7 @@
             profissional! 
         </p>
 
-        <button class="text-slate-950 bg-[#FFBB00] font-bold p-3 rounded-md text-3xl" type="submit" name="cadastre-se">Cadastre-se</button>
+        <button class="text-slate-950 bg-[#FFBB00] font-bold p-3 rounded-md text-2xl" type="submit" name="cadastre-se">Cadastre-se</button>
         </section>
     </article>
 
